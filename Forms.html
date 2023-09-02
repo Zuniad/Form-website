@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <title>FORMS</title>
+    <head>
+        <title>LIst of elemts</title>
+    </head>
+    <body bgcolor="grey">
+        
+       <form>
+        <fieldset>
+            <legend>Enquiry</legend>
+        Name:<input type="text" name="name"  placeholder="please enter" required="" autofocus="" value="ZuniadAhammad" maxlength="10">
+        <br>
+        <br>
+        Address:<textarea name="address" value="" placeholder="Address">NULL 
+        </textarea>
+        <br>
+        <br>
+        Gender:<input type="radio" value="M" name="gender">Male
+        <input type="radio" value="F" name="gender">Female
+        <input type="radio" value="O" name="gender">Other
+        <br>
+        <br>
+        Date:<input type="date" value="//--00"><br>
+        <br>
+        Pass<input type="checkbox" name="pass" value="P">
+        Age 18+:<input type="checkbox" name="pass" value="k">
+        <br>
+        Country:
+        <select>
+            <option >Please select countyr</option>
+            <optgroup label="ASIA">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="ch">China</option>
+            <option value="o">other</option>
+        </optgroup>
+        <optgroup label="BR">
+            <option value="brazil">Brazil</option>
+            <option value="pa">Papu</option>
+        </optgroup>
+        </select> 
+        <br>
+        <br>
+Hobbies:<input type="checkbox" name="hobbies[]">Cricket
+<input type="checkbox" name="hobbies[]" checked="">Swimming
+<input type="checkbox" name="hobbies[]">fighting
+<br>
+<br>
+file:<input type="file" name="image">
+<br>
+<br>
+ color:<input type="color" value="#FF8000">
+ <br>
+ enter password<input type="password" name="password">
+ <br>
+ Enter Email<input type="email" name="email">
+ <br>
+ <br>
+ Phno:<input type="number" name="number">
+<br>
+<br>
+Secret:<input type="hidden"  name="number">
+<br>
+calender<input type="datetime">
+<input type="datetime-local">
+<input type="month">
+<input type="week">
+<input type="time">
+<br>
+Age<input type="number"name="number" min="1" max="67">
+<br> 
+Range<input type="range" name="range" min="0" max="100">
+
+        <input type="submit" value="send">
+        <input type="reset" valu="reset"> 
+        Feedback<input type="tel">
+         
+       </form>
+    </fieldset>
+    </body> 
+</html>
